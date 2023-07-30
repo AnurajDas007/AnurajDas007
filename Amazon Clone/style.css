@@ -139,5 +139,41 @@ span {
 .hero-section {
   background-image: url("Amazon\(Hero\).jpg");
   background-size: cover;
-  height: 550px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.hero-msg a {
+  color: #007185;
+}
+
+/** Box-Section **/
+
+
+.shop-section {
+  display: flex;
+  background-color: #e2e7e6;
+  justify-content: space-evenly;
+}
+
+
+.box {
+  border: 2px solid black;
+  height: 350px;
+  width: 23%;
+  background-color: white;
 }
